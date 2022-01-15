@@ -1,0 +1,267 @@
+Google Arama Metodlarý Kýsayollar 
+
+
+
+
+Arkadaslar bu verecegim bilgiler basit ama çok kullanýþlýdýr. Belki de çogunu biliyorsunuz ama ben yine de bilmiyenler vardýr diye veriyorum 
+
+
+
+
+
+arama yaparken, arayacaðýmýz þey bir kelimeden fazlaysa " " iþaretini kullanýn. 
+bunu yaptýðýnýz takdirde hepsini birlikte alacaktýr. 
+örneðin; mail bombasý yazdýðýnýzda mail ve bombasý kelimelerini arar. 
+Fakat "mail bombasý" yazdýðýnýzda sadece mail bombasýný arar.. 
+
+
+__________________________ 
+
+
+
+Googlede yýldýzlý arama 
+
+Arama.. Offthebest 
+
+Yýldýzlý arama: *offthebest* 
+
+Yýldýzlý arama ile aradýðýnýz konularý ilk satýrlarda görmenizi saðlar.. 
+
+
+_____________________ 
+
+
+
+
+
+
+
+sitenizin google da ilk sýralarda gorunmesini istiyorsanaýz sayfalarýnýzý **** tag larla doldurmayýn cunku ****taglar hiç bir iþie yaramaz aksine siteyi yavaslatýr ilk sýrada gorunmek için page rank larý 3 un ustunde olan sitelere sitenizi ekleyin 
+
+
+_______________________________ 
+
+
+Arayacaðýnýz çeþitli kelimeler arasýna + iþareti koyarak toplu ve iliþkili arama yapabilirsiniz. 
+
+site:www. .com gibi aramalarda sadece o sitenin çeriðinde arama yapýyor 
+
+örneðin site:rapidshare.de .mp3 
+yazarsanýz rapidshare'de yüklü tüm mp3leri bulabilirsiniz bunu baska sitelerde de deneyebilirsiniz iþe yarýyor direk týkla indir 
+
+___________ 
+
+
+
+Google’da kolaylýklar(arama yöntemleri) Bazý kaynaklardan buldugun bu yöntemleri derledim burda hepsini yazýcam.Gerçekten bütün kodlar iþe yarýyor denedim. 
+
+Google’da istedigin kitabý veya dergiyi bul..Bu kodu aynen google kopyalayýn sonuna kitap ismini yazýn... 
+
+(ebook | ebooks | books | book) (*.pdf | *.chm | *.lit | *.rar | *.zip) "parent directory" intitle:"index of /" kitap ismi 
+
+************************************************** ***** 
+Her türlü programý bulabilirsin. 
+"parent directory" appz -xxx -html -htm -php -shtml -opendivx -md5 -md5sums 
+
+Bu komutla google’da gizli her turlu programa ulasabilirsin. Ozel bir program arýyorsan /appz/ yazan yeri degistirmen yeterli. 
+Mesela nero programýný arýyorsan; 
+
+"parent directory" nero -xxx -html -htm -php -shtml -opendivx -md5 -md5sums 
+
+************************************************** *** 
+Mp3 bulma 
+
+?intitle:index.of? mp3 teoman (teoman’ýn mp3 lerine ulasýrsýnýz. teoman’ý degistirip baska bir sanatcý/album yazarsanýz onunkine ulasýrsýnýz) 
+
+************************************************** ***, 
+Buyuk programlar genellikle iso formatýnda internette yer alýr. Bu komut ile tüm isolarý bulabilirsiniz 
+
+inurl:nero filetype:iso 
+Örneðin; 
+nero 
+http://www.harkcom.demon.co.uk/rom-i...20-11-0829.iso 
+
+nero yazan yere programýn ismini yazýcaksýnýz. 
+************************************************** ** 
+Mail listeleri bulun 
+Formuller 
+
+filetypels inurl:"email.xls" 
+filetypels inurl:"mail.xls" 
+filetype:txt inurl:"mail.txt" 
+filetype:txt inurl:"mail.txt" 
+
+
+___________________ 
+
+
+
+
+hackerlar icin google ana sayfasi 
+google hackerler için özel arama sayfasý açtý . 
+Google 
+
+
+
+
+_______________ 
+
+eger mp3 ararsanýz boyle 
+"parent directory " MP3 -xxx -html -htm -php -shtml -opendivx -md5 
+-md5sums 
+veya boyle 
+?intitle:index.of? mp3 
+
+
+eger dvd arasanýz boyle 
+"parent directory " dvd -xxx -html -htm -php -shtml -opendivx -md5 
+-md5sums 
+
+veya boyle 
+?intitle:index.of? dvd 
+
+artýk iþi kapmýþsýnýzdýr inþAllah aradýgýnýz þeyleri renkli olan yerlere yazýn o kadar karþýnýza ftp ler bile cýkar.. 
+
+Hacker Friend Google 
+
+Neredeyse tüm hackerlarýn araçlarý arasýnda 1. sýrada gösterilen google.com hackerlarýn net’teki tek güvenebilecekleri en iyi dost olarak yerini almýþ durumda! Peki biz google.com arama motorundan yeteri kadar iyi faydalanabiliyormuyuz? Ýþte size çalýþmalarýnýzda yardým edecek küçük bir ipucu... 
+
+www.google.com’da istediðiniz ; 
+
+database,db,mdb,log.txt.dat v.s gibi önemli uzantýlý dosyalarý ararken, 
+
+inurl:"x.mdb" Bu tagý kullanabilirsiniz aramalarýnýzý doðru ve sonuca hemen ulaþmada size çok faydasý dokunacaktýr. 
+Yapmanýz gereken þey basit. 
+inurl:"x.mdb " bu karakterden sonra gelen X yerine dosya ismini (dosya ismi database,forum,shop,store,admin v.s gibi olabilir) yazýyorsunuz. Sondaki mdb uzantýsýdýr bunu aradýðýnýz dosya tipine göre deðiþtirmeniz yeterli olacaktýr. 
+
+Not: mdb uzantýlar microsoft office access programý ile veya bir mdb kýrýcý ile açýlabilir. 
+
+----------------------------------------------------------------------- 
+
+örnek 1: 
+allintitle: "index of/root" 
+
+örnek 2 
+inurl:"auth_user_file.txt" 
+
+diger arama sekilleri: 
+
+"Index of /admin" 
+"Index of /password" 
+"Index of /mail" 
+"Index of /" +passwd 
+"Index of /" +password.txt 
+"Index of /" +.htaccess 
+index of ftp +.mdb allinurl:/cgi-bin/ +mailto 
+
+administrators.pwd.index 
+. 
+. 
+benzeri komutlara linkteki txt dosyasindan bakabilirsiniz. 
+
+Google 
+google ýn bu adresinde arama satýrýna kelime yazdýðýnýzda o kelimenin google da ne kadar arandýðý yazýyor hizasýnda. 
+
+-www.google.com/calendar ’a girin. 
+-gmail hesabýnýza girin 
+-sað üst köþede settings kýsmýna girin 
+-notifications sekmesine týklayýn 
+-Ülke kýsmýný ayarlayýp, Phone Number kýsmýna 505... gibi tel. numaranýzý yazýp send verification a týklayýn 
+-telefonunuza gelen smsteki kodu verification kýsmýna yazýn 
+Artýk sms iþaretçilerinin açýldýðýný göreceksiniz ve istediðiniz özellikleri seçerek sms le uyarýyý bedavaya aktif etmiþ oluyorsunuz 
+Artýk hatýrlatmalar cebinize bedava(sitede verilen bilgiye göre) sms olarak gelecek 
+
+
+
+______________ 
+
+
+
+
+Google daha onceden tasarlanmis komutlariyla cikardigi inanilmaz sonuclari onu dunyanin en popular arama motoru yapar. Bu ozelligi art niyetli kisilerin ornegin hackelarin ve ¤¤¤¤¤erlarin ve betik cocuklarinin google i normal gozlerin goremeyecegi sekilde hassas ve gizli seylerin cikarilmasinda kapsamli sekilde kullanmasina saglar. 
+Bu dokumanda ,asagida verilen hususlarin mutlaka system yoneticilerinim ve guvenlik uzmanlari tarafindan goz onunde bulundurmasi gerekir . 
+- Google in Gelismis Arama Sorgulama soz dizimlerini. 
+- Hassas siteleri veya sunuculari sorgulamak icin google gelismis aramasi kullanilir. 
+- sunucular veya siteleri google in istilalarina karsi 
+guvenligini gelistirirken 
+Google in gelismis arama sorgulama soz dizileri 
+Asagida ki bahsedilenler google in cesitli ozel komutlari ve her komutun kisaca ozetledigim, nasil kullanicilaginin en hassas noktalaridir. 
+[ intitle: ] 
+The "intitle:" soz dizimi google’i sinirla***** basliginda bu gecen sayfalari bulmakta faydali olmaktadir. Ornegin, "intitle: login password" (tirnaklar olmadan…Tamamý size basliginda "login" kelimesinin gectigi, ve "password" kelimesinin sayfanin herhangi bir yerindeki bahsedilen sitelerin baglantilarini dondurekcektir. 
+Benzer sekilde , eger ki sayfalarin basliginda birden fazla kelime sorgulayacaksak bu durumda "allintitle:" "intitle" in yerine kullanilir. Bu sekilde basliklarinda bu kelimeler olan siteler aranir. 
+[ inurl: ] 
+The "inurl:" sozdizimi baglantilarinda bu kelimeler gecen sayfalari dondurur. Ornegin "inurl: passwd" (tirnaklar yok) baglantilarinda passwd kelimesi olan baglantilari donderecektir. 
+Benzer sekilde, eger ki bir sorgu birden fazla kelimeye sahip bir baglantiysa, bu durumda "allinurl:" "inurl" yerine kullanilir. Ornegin "allinurl: etc/passwd" sorgusu icinde "etc" ve "passwd" kelimelerini iceren sayfalarini arayacaktir. ("/") karakteri bu sorgu icinde ihmal edilir. 
+[ site: ] 
+Sorgularimizin icinde "site:" kelimesi google in sadece bir site icinde arama yapmasina olanak verir. Ornegin "exploits site:hackingspirits.com" (tirnaklar yok) bu alanin butun baglantilarda exploit kelimesini bulundugu sayfalari arar. "site:" ve "domain name" arasinda bosluk olmamali. 
+[ filetype: ] 
+"filetype" soz dizimi google i internette belirlenmis uzantilarin aramansiyla sinirlar (ornegin doc, pdf or ppt vs…Tamamý. Ornegin : "filetype:doc site:gov confidential" (Tirnaklar yok) icerisinde ".doc" uzantisinin gectigi ve alaninda ".gov" uzantisi olan alanlari ve gerek sayfalarda gerekse ".doc" dosyalarda "confidential" kelimesinin oldugu sayfalari arar. 
+[ link: ] 
+"link:" sozdizimi herhangi bir belirlenmis web sayfasina olan baglantilari listeler. Ornegin "link: color=#0000ff www.securityfocus.co m" sorgusu icersinde SecurityFocus ana syafasi olan web sayfalarini listeler. Not : "link:" ve web sayfasinin url i arasinda bosluk yok. 
+[ related: ] 
+"related:" soz dizimi verilen web sayfalarina benzer olan web sayfalarini listeler. Ornegin : "related: color=#0000ff www.securityfocus.com " Securityfocus ana sayfasina benzer olan yeni web sayfalarini listeleycektir. . Not : "related:" ve web sayfasinin url i arasinda bosluk yok. 
+[ cache: ] 
+"cache:" soz dizimi bir google in gecici hafizasinda saklanan web sayfasinin yorumunu gosterecektir. Ornegin : "cache:www.hackingspirits.com" google in kendi gecici hafizasinda sakladigi ana sayfasini gosterecektir. 
+Eger ki sorguya diger kelimeleri de katarsaniz, Google icersinde olan bu kelimeleri renkli olarak gosterecektir. Ornegin "cache: color=#0000ff www.hackingspirits.com guest" guest kelimesini renklendirecektir. 
+[ intext: ] 
+"intext:" soz dizimi belirli bir sitede ki kelimeleri arar. Bu linkleri yada URL leri ve basliklari ihmal eder. For example: "intext:exploits" (tirnak yok) web sayfalarinda "exploits" olan kelimeleri isaret eden web sayfalari gosterir. 
+[ phonebook: ] 
+"phonebook" A.B.D. cadde adresleri ve telefon numaralari bilgilerini arar. Ornegin: "phonebook:Lisa+CA" icerisinde Lisa ismi gecen ve yerlesim yeri California olan siteleri listeler. Eger ki birisinin ozel hayatini arastirmak istiyorsa, bu tur aramalar sosyal muhendislik tarafinda hackerlar icin cok iyi bir aractir 
+Zayif siteler ve sunucularin google’in gelismis araclarini kullanarak sorgulamak 
+Evet, yukarda bahsedilen google in arama teknikleri insanlara kesin sonucular yapmada ve aradiklarini kesin bulmada yardim eder. 
+Su anda Google o kadar akilli bir arama motoru ki, tehlikeli kullanicilar yasaklanmis alanlara aldiris etmeden gizli bilgilere ulasabiliyor. 
+"Index of" soz dizimi ile taranabilecek siteleri bulmak. 
+Iceriginin siralanmis sekilde gezilmesine izin verilmis bir sunucuyu gezmek demek kendi bilgisayarinizda gezmek anl***** gelir. Simdi burada "index of" soz diziminin web sunucularinin listelerini nasil gosterdiginden bahsedecegim. 
+Index of /admin 
+Index of /passwd 
+Index of /password 
+Index of /mail 
+"Index of /" +passwd 
+"Index of /" +password.txt 
+"Index of /" +.htaccess 
+"Index of /secret" 
+"Index of /confidential" 
+"Index of /root" 
+"Index of /cgi-bin" 
+"Index of /credit-card" 
+"Index of /logs" 
+"Index of /config" 
+"inurl:" yada "allinurl:" ile sitelerin ve sunucularin zayifliklarini arastirmak. a. "allinurl:winnt/system32/" (tirnak yok) kullanmak system32 gibi klasorlere web tarafindan ulasilabilecek sunuculari listeleyecektir. Eger ki biraz sansli iseniz, daha sonra cmd.exe ye ulasacaksinizdir. Daha sonra da suncuyu yonetebilecek haklara sahip olacak haklara erisim saglamis olacaksiniz. 
+b. "allinurl:wwwboard/passwd.txt"(tirnaksiz) kullanmak, google arama motorunda "WWWBoard Password vulnerability" karsi zayifligi olan butun sunucularin linklerini listeleyecektir. Bu konu hakkinda daha fazla sey icin suraya goz atabilirsiniz color=#0000ff http://www.securiteam.com/exploits/2BUQ4S0SAW .html . 
+c. "inurl:.bash_history" (tirnaklar yok)kullanmak, to ".bash_history" dosyalarina webten ulasmayi saglayan sunuculari listeleyecektir. Bu bir tarih kayit dosyasidir. Sistem yoneticilerin kullandigi komutlar bu dosyada tutulur, ve bazende cok hassas bilgileri icerir ornegin yonetici sifresi gibi… Dosya "John The Ripper" programiyla cok kolayca kirilabilir eger ki sifrelendiyse. 
+d. "inurl:config.txt" (tirnaksiz) kullanmak , webden "config.txt" dosyasina ulasilmasina izin veren sunucularin adreslerini bize listeleyecektir. Bu dosya hassas bilgiler icerir, iceriginde yonetici sifresinin rastgele sifreli degeri ve veritabani izin belgeleri bulunabilir. Ornegin : "Ingenium Learning Management System" web tabanli bir program olup windows tabanli sistemler icin Click2learn tarafindan gelistirilmistir. "Ingenium Learning Management System" 5.1 ve 6.1 surumunde hassas bilgileri yeterince guvenli olmadan config.txt dosyasinda saklamistir. Daha fazla bilgi icin color=#0000ff http://www.securiteam.com/securitynews/6M00H2K5PG. html adresine bakabilirsiniz. 
+
+hdd den çýktý. 
+Diger benzer soz dizimleriyle birlestirilmis, benzer "inurl:" yada "allinurl:" arama soz dizimleri… 
+inurl:admin filetype:txt 
+inurl:admin filetype:db 
+inurl:admin filetype:cfg 
+inurl:mysql filetype:cfg 
+inurlasswd filetype:txt 
+inurl:iisadmin 
+inurl:auth_user_file.txt 
+inurlrders.txt 
+inurl:"wwwroot/*." 
+inurl:adpassword.txt 
+inurl:webeditor.php 
+inurl:file_upload.php 
+inurl:gov filetypels "restricted" 
+index of ftp +.mdb allinurl:/cgi-bin/ +mailto 
+"intitle:" ya da "allintitle:" kullanarak sitelerin veya sunucularin zayifliklarinin arastirilmasi 
+[allintitle: "index of /root"] (koseli paran¤¤¤ler yok.) kullanmak, webten bize "root" gibi sinirlanmis klasorlere girelebilecek web serverlarin adreslerini listeler. Bu dizin bazen internetten kolayca alinabilecek degerli bilgileri icerginde tutar. 
+[allintitle: "index of /admin"] (koseli paran¤¤¤ler yok) kullanmak, web ten "admin" gibi sinirlandirilmis klasorlere gezilmesine olanak saglayan adresleri listeler. Bircok web uygulamasi "admin" gibi isimleri belgelerinde kullanir. 
+Diger benzer soz dizimleriyle birlestirilmis benzer arama soz dizimleri… 
+intitle:"Index of" .sh_history 
+intitle:"Index of" .bash_history 
+intitle:"index of" passwd 
+intitle:"index of" people.lst 
+intitle:"index of" pwd.db 
+intitle:"index of" etc/shadow 
+intitle:"index of" spwd 
+intitle:"index of" master.passwd 
+intitle:"index of" htpasswd 
+intitle:"index of" members OR accounts 
+intitle:"index of" user_carts OR user_cart 
+allintitle: sensitive filetype:doc 
+allintitle: restricted filetype :mail 
+allintitle: restricted filetype:doc site:gov

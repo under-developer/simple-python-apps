@@ -1,0 +1,5 @@
+inurl: "q="
+inurl: ?=
+inurl: bormax.php?=
+intext: "XSS"
+inurl: /admin/q=

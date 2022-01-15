@@ -1,0 +1,119 @@
+Interesting Searches…
+* Source http://www.i-hacked.com/content/view/23/42/
+* intitle:"Index of" passwords modified
+* allinurl:auth_user_file.txt
+* "access denied for user" "using password“
+* "A syntax error has occurred" filetype:ihtml
+* allinurl: admin mdb
+* "ORA-00921: unexpected end of SQL command“
+* inurl:passlist.txt
+* "Index of /backup“
+* "Chatologica MetaSearch" "stack tracking:"
+* inurl:passwd.txt
+…and this one is just priceless…
+* “login: *” “password= *” filetype:xls
+
+Listings of what you want
+* change the word after the parent directory to what you want
+* "parent directory " DVDRip -xxx -html -htm -php -shtml -opendivx -md5 -md5sums
+* "parent directory "Xvid -xxx -html -htm -php -shtml -opendivx -md5 -md5sums
+* "parent directory " Gamez -xxx -html -htm -php -shtml -opendivx -md5 -md5sums
+* "parent directory " MP3 -xxx -html -htm -php -shtml -opendivx -md5 -md5sums
+* "parent directory " Name of Singer or album” -xxx -html -htm -php -shtml -opendivx -md5 -md5sums
+
+Music (*this is already posted in another thread)
+* You only need add the name of the song/artist/singer.
+* Example: intitle:index.of mp3 jackson
+
+CD Images
+* inurl:microsoft filetype:iso
+* You can change the string to whatever you want, ex. Microsoft to Adobe, .iso to .zip etc…
+
+Passwords
+* "# -FrontPage-" inurl:service.pwdFrontPage passwords.. very nice clean search results listing !!
+
+* "AutoCreate=TRUE password=*" This searches the password for "Website Access Analyzer", a Japanese software that creates webstatistics. For those who can read Japanese, check out the author's site at: http://www.coara.or.jp/~passy/
+
+Passwords in the URL
+* "http://*:*@www" domainnameThis is a query to get inline passwords from search engines (not just Google), you must type in the query followed with the domain name without the .com or .net
+* "http://*:*@www" gamespy or http://*:*@www”gamespy
+* Another way is by just typing"http://bob:bob@www"
+
+IRC Passwords
+* "sets mode: +k"This search reveals channel keys (passwords) on IRC as revealed from IRC chat logs.
+* eggdrop filetype:user userThese are eggdrop config files. Avoiding a full-blown discussion about eggdrops and IRC bots, suffice it to say that this file contains usernames and passwords for IRC users.
+
+Access Database Passwords
+* allinurl: admin mdbNot all of these pages are administrator's access databases containing usernames, passwords and other sensitive information, but many are!
+
+DCForum Passwords
+* allinurl:auth_user_file.txtDCForum's password file. This file gives a list of (crackable) passwords, usernames and email addresses for DCForum and for DCShop (a shopping cart program(!!!). Some lists are bigger than others, all are fun, and all belong to googledorks.
+
+MySQL Passwords
+* intitle:"Index of" config.php
+* This search brings up sites with "config.php" files. To skip the technical discussion, this configuration file contains both a username and a password for an SQL database. Most sites with forums run a PHP message base. This file gives you the keys to that forum, including FULL ADMIN access to the database.
+
+The ETC Directory
+* intitle:index.of.etc
+* This search gets you access to the etc directory, where many, many, many types of password files can be found. This link is not as reliable, but crawling etc directories can be really fun!
+Quick Checks;;Passwords;;password
+Quick Checks;;Passwords;;(intext:12345 | intext:qwerty | intext:admin123) intext:"gmail.com" intext:"yahoo.com"
+Quick Checks;;Passwords;;(intext:"pass" OR intext:"passwd" OR intext:"pwd")
+Quick Checks;;Passwords;;(intext:"password" OR intext:"pass" OR intext:"passwd" OR intext:"pwd" OR intext:"passwords")
+Quick Checks;;Passwords;;intext:@gmail.com (intext:"password" OR intext:"pass" OR intext:"passwd" OR intext:"pwd" OR intext:"passwords")
+Quick Checks;;Passwords;;intext:@gmail.com (intext:"pass" OR intext:"passwd" OR intext:"pwd")
+Quick Checks;;Passwords;;(user | username | uname | uid | usr | credentials | login) (intext:"password" OR intext:"pass" OR intext:"passwd" OR intext:"pwd" OR intext:"passwords")
+Quick Checks;;Passwords;;(intext:"user" | intext:"username" | intext:"uname" | intext:"uid" | intext:"usr" | intext:"credentials" | intext:"login") (intext:"password" OR intext:"pass" OR intext:"passwd" OR intext:"pwd" OR intext:"passwords")
+Quick Checks;;Datadump;;gmail hotmail password
+Quick Checks;;Datadump;;gmail hotmail password diane
+Quick Checks;;Datadump;;gmail hotmail password jennifer
+Quick Checks;;Confidential;;confidential | secret | "not for distribution" | proprietary
+Quick Checks;;Confidential;;(confidential | secret | "not for distribution" | proprietary)
+Quick Checks;;Confidential;;(confidential | secret | "not for distribution") (intitle:"report" | intext:"report")
+Patient Records;;Patient Records;;Patient (id | dob| claim | NPI | record)
+PII;;Places of Birth;;(pob| place of birth | birth place | born in)
+PII;;Common;;(fname | lname | ssn | "maiden name" | email | address)
+Passwds Various Languages;;ALL Various Languages;;(Kennwort | contraseña | mot de passe | parola d’accesso | senha | Paswoord)
+Passwds Various Languages;;Password German;;Kennwort
+Passwds Various Languages;;Password Spanish;;contraseña
+Passwds Various Languages;;Password French;;mot de passe
+Passwds Various Languages;;Password Italian;;parola d’accesso
+Passwds Various Languages;;Password Portuguese;;senha
+Passwds Various Languages;;Password Dutch;;Paswoord
+Passwords;;PassKeywords;password
+Passwords;;PassKeywords;;(pass | password | passwd | credentials | login)
+Passwords;;PassKeywords;;intext:12345 intext:password intext:admin123 intext:"gmail.com" intext:"yahoo.com"
+Passwords;;PassKeywords;;(intext:12345 | intext:qwerty | intext:admin123) intext:"gmail.com" intext:"yahoo.com"
+Passwords;;PassKeywords;;intext:12345 intext:welcome intext:ninja intext:"gmail.com" intext:"yahoo.com"
+Keywords;;Admin;;intext:"admin"
+Keywords;;Admin;;administrator
+Keywords;;Username;;(user | username | uname | uid | usr | credentials | login)
+Keywords;;Username;;(intext:"user" | intext:"username" | intext:"uname" | intext:"uid" | intext:"usr" | intext:"credentials" | intext:"login")
+Keywords;;Datadump;;blvd 75th gmail hotmail password
+Keywords;;Datadump;;blvd steven gmail hotmail password
+Keywords;;Datadump;;blvd susan gmail hotmail password
+Keywords;;Datadump;;gmail hotmail password
+Keywords;;Datadump;;gmail hotmail password diane
+Keywords;;Datadump;;gmail hotmail password jennifer
+Keywords;;Datadump;;gmail hotmail password jennifer blvd
+Keywords;;Datadump;;gmail hotmail password steven
+Keywords;;Datadump;;gmail hotmail password steven blvd
+Keywords;;Datadump;;gmail hotmail password susan
+Keywords;;Datadump;;intext:@gmail.com (intext:"password" OR intext:"pass" OR intext:"passwd" OR intext:"pwd" OR intext:"passwords")
+Keywords;;Datadump;;intext:@gmail.com (intext:"pass" OR intext:"passwd" OR intext:"pwd")
+Keywords;;Datadump;;(user | username | uname | uid | usr | credentials | login) (intext:"password" OR intext:"pass" OR intext:"passwd" OR intext:"pwd" OR intext:"passwords")
+Keywords;;Datadump;;(intext:"user" | intext:"username" | intext:"uname" | intext:"uid" | intext:"usr" | intext:"credentials" | intext:"login") (intext:"password" OR intext:"pass" OR intext:"passwd" OR intext:"pwd" OR intext:"passwords")
+Keywords;;Datadump;;diane intext:@gmail.com (intext:"password" OR intext:"pass" OR intext:"passwd" OR intext:"pwd" OR intext:"passwords")
+Keywords;;Datadump;;diane blvd intext:@gmail.com (intext:"pass" OR intext:"passwd" OR intext:"pwd")
+Keywords;;Datadump;;jennifer intext:@gmail.com (intext:"password" OR intext:"pass" OR intext:"passwd" OR intext:"pwd" OR intext:"passwords")
+Keywords;;Datadump;;jennifer blvd intext:@gmail.com (intext:"pass" OR intext:"passwd" OR intext:"pwd")
+Keywords;;Datadump;;jennifer 75th blvd intext:@gmail.com (intext:"pass" OR intext:"passwd" OR intext:"pwd")
+Keywords;;Datadump;;jennifer 75th intext:@gmail.com (intext:"pass" OR intext:"passwd" OR intext:"pwd")
+Keywords;;Datadump;;steven intext:@gmail.com (intext:"password" OR intext:"pass" OR intext:"passwd" OR intext:"pwd" OR intext:"passwords")
+Keywords;;Datadump;;steven blvd intext:@gmail.com (intext:"pass" OR intext:"passwd" OR intext:"pwd")
+Keywords;;Datadump;;steven 75th blvd intext:@gmail.com (intext:"pass" OR intext:"passwd" OR intext:"pwd")
+Keywords;;Datadump;;steven 75th intext:@gmail.com (intext:"pass" OR intext:"passwd" OR intext:"pwd")
+Keywords;;Datadump;;susan intext:@gmail.com (intext:"password" OR intext:"pass" OR intext:"passwd" OR intext:"pwd" OR intext:"passwords")
+Keywords;;Datadump;;susan blvd intext:@gmail.com (intext:"pass" OR intext:"passwd" OR intext:"pwd")
+Keywords;;Datadump;;susan 75th blvd intext:@gmail.com (intext:"pass" OR intext:"passwd" OR intext:"pwd")
+Keywords;;Datadump;;susan 75th intext:@gmail.com (intext:"pass" OR intext:"passwd" OR intext:"pwd")
